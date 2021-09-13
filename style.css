@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+}
+
+li::before {
+    content: "•";
+    color: white;
+    display: flex;
+}
+
+body {
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+    margin: 15px;
+}
+
+.left {
+    width: 35%;
+    margin: 5px;
+}
+
+.imagem-perfil {
+    width: 100%;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    padding-left: 10%;
+    font-size: 1.2rem;
+    background-color: lightgrey;
+    height: 100%;
+    padding-bottom: 15%;
+    padding-right: 3%;
+}
+
+.contato-title {
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+.right {
+    width: 65%;
+}
+
+.name-title {
+    border-bottom: 4px solid lightgrey;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.name {
+    font-size: 6em;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    font-weight: bold;
+}
+
+.job-title {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.description {
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.resume {
+    width: 50%;
+    border-right: 1px solid lightgrey;
+    padding-right: 2%;
+}
+
+.resume-title {
+    font-size: 1.5em;
+    color: white;
+    padding: 3px;
+}
+
+.resume-text {
+    color: white;
+    padding: 3px;
+    padding-right: 5px;
+    display: flex;
+    text-align: justify;
+}
+
+.skills {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.history {
+    font-size: 3em;
+    color: white;
+    padding: 1%;
+}
+
+.description-history {
+    display: flex;
+    margin-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.resume-job {
+    color: white;
+    padding: 3px;
+    padding-right: 5px;
+    display: flex;
+    text-align: justify;
+    font-size: 2em;
+    font-style: italic;
+}
+
+.description-academic {
+    display: block;
+    margin-top: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.resume-academic {
+    width: 100%;
+    padding-right: 2%;
+}
